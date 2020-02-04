@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-import Foundation
 import UIKit
 
 final class HomeCoordinator: Coordinator {
@@ -26,11 +24,17 @@ final class HomeCoordinator: Coordinator {
 extension HomeCoordinator {
     private func createHomeViewController() -> HomeViewController {
         let homeViewController = HomeViewController.instantiate()
-        let viewModel = HomeViewModel()
-        viewModel.coordinatorDelegate = self
-        homeViewController.viewModel = viewModel
         return homeViewController
     }
 
 }
 
+extension HomeCoordinator: HomeCoordinatorDelegate {
+    func wantsNavigateToProductList(with filter: String, title: String?) {
+        let productCoordinator = ProductCoordinator(productOption: .productList(filter: filter))
+        productCoordinator.title = title
+        productCoordinator.start(with: .push(inNavigation: navigationController))
+        childCoordinators = productCoordinator
+    }
+
+}
