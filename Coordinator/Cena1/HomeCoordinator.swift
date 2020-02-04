@@ -30,11 +30,10 @@ extension HomeCoordinator {
 }
 
 extension HomeCoordinator: HomeCoordinatorDelegate {
-    func wantsNavigateToProductList(with filter: String, title: String?) {
-        let productCoordinator = ProductCoordinator(productOption: .productList(filter: filter))
-        productCoordinator.title = title
-        productCoordinator.start(with: .push(inNavigation: navigationController))
-        childCoordinators = productCoordinator
+    func wantsNavigateToCena2() {
+        let  cena2Coordinator = Cena2Coordinator()
+        cena2Coordinator.start(with: .push(inNavigation: navigationController))
+        childCoordinators = cena2Coordinator
     }
 
 }

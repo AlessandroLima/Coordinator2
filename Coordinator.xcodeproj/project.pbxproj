@@ -12,6 +12,8 @@
 		1D2E0F3023E057AA00334B23 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E0F2F23E057AA00334B23 /* MainProtocols.swift */; };
 		1DB03DF623E8802400DF8E52 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03DF523E8802400DF8E52 /* UIView+Extension.swift */; };
 		1DB03DFA23E8858000DF8E52 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03DF923E8858000DF8E52 /* HomeCoordinator.swift */; };
+		1DB03E0323EA1DA700DF8E52 /* Cena2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03E0223EA1DA600DF8E52 /* Cena2Coordinator.swift */; };
+		1DB03E0523EA212E00DF8E52 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03E0423EA212E00DF8E52 /* HomeProtocols.swift */; };
 		D24A516923DDD2EB00B1A3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A516823DDD2EB00B1A3BA /* AppDelegate.swift */; };
 		D24A516B23DDD2EB00B1A3BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A516A23DDD2EB00B1A3BA /* SceneDelegate.swift */; };
 		D24A516D23DDD2EB00B1A3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A516C23DDD2EB00B1A3BA /* ViewController.swift */; };
@@ -23,7 +25,7 @@
 		D24A518F23DDD3A500B1A3BA /* Cena2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A518E23DDD3A500B1A3BA /* Cena2.storyboard */; };
 		D24A519223DDD3C800B1A3BA /* Cena3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A519123DDD3C800B1A3BA /* Cena3.storyboard */; };
 		D24A519423DDD50100B1A3BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A519323DDD50100B1A3BA /* HomeViewController.swift */; };
-		D24A519623DDD56E00B1A3BA /* View1Cena2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A519523DDD56E00B1A3BA /* View1Cena2.swift */; };
+		D24A519623DDD56E00B1A3BA /* View1Cena2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A519523DDD56E00B1A3BA /* View1Cena2ViewController.swift */; };
 		D24A519823DDD65E00B1A3BA /* View1Cena3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A519723DDD65E00B1A3BA /* View1Cena3.swift */; };
 		D2E65E9F23DE171E009D507A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E65E9E23DE171E009D507A /* Coordinator.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		1D2E0F2F23E057AA00334B23 /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
 		1DB03DF523E8802400DF8E52 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1DB03DF923E8858000DF8E52 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		1DB03E0223EA1DA600DF8E52 /* Cena2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cena2Coordinator.swift; sourceTree = "<group>"; };
+		1DB03E0423EA212E00DF8E52 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
 		D24A516523DDD2EB00B1A3BA /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24A516823DDD2EB00B1A3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24A516A23DDD2EB00B1A3BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +63,7 @@
 		D24A518E23DDD3A500B1A3BA /* Cena2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cena2.storyboard; sourceTree = "<group>"; };
 		D24A519123DDD3C800B1A3BA /* Cena3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cena3.storyboard; sourceTree = "<group>"; };
 		D24A519323DDD50100B1A3BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		D24A519523DDD56E00B1A3BA /* View1Cena2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1Cena2.swift; sourceTree = "<group>"; };
+		D24A519523DDD56E00B1A3BA /* View1Cena2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1Cena2ViewController.swift; sourceTree = "<group>"; };
 		D24A519723DDD65E00B1A3BA /* View1Cena3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1Cena3.swift; sourceTree = "<group>"; };
 		D2E65E9E23DE171E009D507A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +157,7 @@
 				D24A518B23DDD35100B1A3BA /* Cena1Storyboard.storyboard */,
 				D24A519323DDD50100B1A3BA /* HomeViewController.swift */,
 				1DB03DF923E8858000DF8E52 /* HomeCoordinator.swift */,
+				1DB03E0423EA212E00DF8E52 /* HomeProtocols.swift */,
 			);
 			path = Cena1;
 			sourceTree = "<group>";
@@ -161,7 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				D24A518E23DDD3A500B1A3BA /* Cena2.storyboard */,
-				D24A519523DDD56E00B1A3BA /* View1Cena2.swift */,
+				D24A519523DDD56E00B1A3BA /* View1Cena2ViewController.swift */,
+				1DB03E0223EA1DA600DF8E52 /* Cena2Coordinator.swift */,
 			);
 			path = Cena2;
 			sourceTree = "<group>";
@@ -288,9 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB03DF623E8802400DF8E52 /* UIView+Extension.swift in Sources */,
-				D24A519623DDD56E00B1A3BA /* View1Cena2.swift in Sources */,
+				D24A519623DDD56E00B1A3BA /* View1Cena2ViewController.swift in Sources */,
 				1DB03DFA23E8858000DF8E52 /* HomeCoordinator.swift in Sources */,
 				1D2E0F2D23E0552900334B23 /* UIViewController + Extension.swift in Sources */,
+				1DB03E0523EA212E00DF8E52 /* HomeProtocols.swift in Sources */,
 				1D2E0F2A23E0510C00334B23 /* MainCoordinator.swift in Sources */,
 				D24A519823DDD65E00B1A3BA /* View1Cena3.swift in Sources */,
 				D24A519423DDD50100B1A3BA /* HomeViewController.swift in Sources */,
@@ -298,6 +305,7 @@
 				D24A516923DDD2EB00B1A3BA /* AppDelegate.swift in Sources */,
 				D24A516B23DDD2EB00B1A3BA /* SceneDelegate.swift in Sources */,
 				1D2E0F3023E057AA00334B23 /* MainProtocols.swift in Sources */,
+				1DB03E0323EA1DA700DF8E52 /* Cena2Coordinator.swift in Sources */,
 				D2E65E9F23DE171E009D507A /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
