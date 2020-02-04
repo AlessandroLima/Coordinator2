@@ -26,9 +26,9 @@ final class HomeCoordinator: Coordinator {
 extension HomeCoordinator {
     private func createHomeViewController() -> HomeViewController {
         let homeViewController = HomeViewController.instantiate()
-        let viewModel = HomeViewModel()
-        viewModel.coordinatorDelegate = self
-        homeViewController.viewModel = viewModel
+        //let viewModel = HomeViewModel()
+        //viewModel.coordinatorDelegate = self
+        //homeViewController.viewModel = viewModel
         return homeViewController
     }
 
