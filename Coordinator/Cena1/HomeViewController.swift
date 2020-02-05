@@ -10,23 +10,20 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    weak var coordinatorDelegate: MainCoordinatorDelegate?
+    weak var coordinatorDelegate: HomeCoordinatorDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+       
+    }
+    
+    @IBAction func goToCena2(_ sender: Any) {
+        coordinatorDelegate?.wantsNavigateToCena2()
     }
     
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    @IBAction func goToCena3(_ sender: Any) {
+    
+    }
     
 }

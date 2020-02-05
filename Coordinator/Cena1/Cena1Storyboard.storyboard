@@ -14,7 +14,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bc-dY-Brs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg9-TL-05O">
+                                <rect key="frame" x="55" y="159" width="304" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="3vY-0g-fRV"/>
+                                    <constraint firstAttribute="width" constant="304" id="XcC-he-jye"/>
+                                </constraints>
+                                <state key="normal" title="CENA 2"/>
+                                <connections>
+                                    <action selector="goToCena2:" destination="Eka-9H-oI3" eventType="touchUpInside" id="2h8-6T-oEs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VX0-uU-Yiv">
+                                <rect key="frame" x="55" y="250" width="304" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="304" id="3zV-Z9-gnh"/>
+                                    <constraint firstAttribute="height" constant="52" id="BqR-hY-YaG"/>
+                                </constraints>
+                                <state key="normal" title="CENA 3"/>
+                                <connections>
+                                    <action selector="goToCena3:" destination="Eka-9H-oI3" eventType="touchUpInside" id="8R4-Ad-8Om"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bg9-TL-05O" firstAttribute="top" secondItem="YB8-q5-3Wv" secondAttribute="top" constant="71" id="CUx-ix-mel"/>
+                            <constraint firstItem="bg9-TL-05O" firstAttribute="leading" secondItem="YB8-q5-3Wv" secondAttribute="leading" constant="55" id="IwH-PG-X02"/>
+                            <constraint firstItem="VX0-uU-Yiv" firstAttribute="leading" secondItem="YB8-q5-3Wv" secondAttribute="leading" constant="55" id="LgB-Ua-bbt"/>
+                            <constraint firstItem="YB8-q5-3Wv" firstAttribute="trailing" secondItem="bg9-TL-05O" secondAttribute="trailing" constant="55" id="QQr-Dc-Be5"/>
+                            <constraint firstItem="VX0-uU-Yiv" firstAttribute="top" secondItem="bg9-TL-05O" secondAttribute="bottom" constant="39" id="lTs-HY-ElC"/>
+                            <constraint firstItem="YB8-q5-3Wv" firstAttribute="trailing" secondItem="VX0-uU-Yiv" secondAttribute="trailing" constant="55" id="njT-Dd-oi9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YB8-q5-3Wv"/>
                     </view>
                     <navigationItem key="navigationItem" id="cIX-3L-jRd"/>
