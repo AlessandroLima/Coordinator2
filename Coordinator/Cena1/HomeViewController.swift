@@ -10,21 +10,29 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    let homeCoordinator = HomeCoordinator()
+    @IBOutlet weak var messageLabel: UILabel!
+    
+    weak var homeCoordinatorDelegate : HomeCoordinatorDelegate?
+    var chieldCoordinator: Coordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        homeCoordinator.start()
-        homeCoordinator.navigationController = self.navigationController
+        
     }
     
     @IBAction func goToCena2(_ sender: Any) {
-        homeCoordinator.wantsNavigateToCena2()
+        homeCoordinatorDelegate?.wantsNavigateToCena2()
     }
     
     
     @IBAction func goToCena3(_ sender: Any) {
-    
+        
     }
     
+}
+
+extension HomeViewController{
+    func setup(message: String){
+        messageLabel.text = message
+    }
 }

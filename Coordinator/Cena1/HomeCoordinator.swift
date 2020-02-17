@@ -13,7 +13,7 @@ final class HomeCoordinator: Coordinator {
     
     var navigationController: UINavigationController?
     var currentViewController: UIViewController?
-    var childCoordinators: Coordinator?
+    var childCoordinator: Coordinator?
 
     func start() -> UIViewController {
         currentViewController = createHomeViewController()
@@ -32,7 +32,8 @@ extension HomeCoordinator: HomeCoordinatorDelegate {
     func wantsNavigateToCena2() {
         let  cena2Coordinator = Cena2Coordinator()
         cena2Coordinator.start(with: .push(inNavigation: navigationController))
-        childCoordinators = cena2Coordinator
+        childCoordinator = cena2Coordinator
+       
     }
 
 }
