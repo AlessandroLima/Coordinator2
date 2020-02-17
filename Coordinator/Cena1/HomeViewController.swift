@@ -10,15 +10,16 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    weak var coordinatorDelegate: HomeCoordinatorDelegate?
+    let homeCoordinator = HomeCoordinator()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        homeCoordinator.start()
+        homeCoordinator.navigationController = self.navigationController
     }
     
     @IBAction func goToCena2(_ sender: Any) {
-        coordinatorDelegate?.wantsNavigateToCena2()
+        homeCoordinator.wantsNavigateToCena2()
     }
     
     

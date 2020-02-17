@@ -23,10 +23,9 @@ final class HomeCoordinator: Coordinator {
 
 extension HomeCoordinator {
     private func createHomeViewController() -> HomeViewController {
-        let homeViewController = HomeViewController.instantiate()
+        let homeViewController = HomeViewController.instantiate(viewController: "HomeViewController", from: "Cena1StoryBoard")
         return homeViewController
     }
-
 }
 
 extension HomeCoordinator: HomeCoordinatorDelegate {

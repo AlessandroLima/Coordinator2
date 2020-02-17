@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D2E0F2A23E0510C00334B23 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E0F2923E0510B00334B23 /* MainCoordinator.swift */; };
 		1D2E0F2D23E0552900334B23 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E0F2C23E0552900334B23 /* UIViewController + Extension.swift */; };
-		1D2E0F3023E057AA00334B23 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E0F2F23E057AA00334B23 /* MainProtocols.swift */; };
 		1DB03DF623E8802400DF8E52 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03DF523E8802400DF8E52 /* UIView+Extension.swift */; };
 		1DB03DFA23E8858000DF8E52 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03DF923E8858000DF8E52 /* HomeCoordinator.swift */; };
 		1DB03E0323EA1DA700DF8E52 /* Cena2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03E0223EA1DA600DF8E52 /* Cena2Coordinator.swift */; };
 		1DB03E0523EA212E00DF8E52 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03E0423EA212E00DF8E52 /* HomeProtocols.swift */; };
+		1DB03E0D23EB255C00DF8E52 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03E0B23EB255C00DF8E52 /* MainCoordinator.swift */; };
+		1DB03E0E23EB255C00DF8E52 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB03E0C23EB255C00DF8E52 /* MainProtocols.swift */; };
 		D24A516923DDD2EB00B1A3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A516823DDD2EB00B1A3BA /* AppDelegate.swift */; };
 		D24A516B23DDD2EB00B1A3BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A516A23DDD2EB00B1A3BA /* SceneDelegate.swift */; };
 		D24A516D23DDD2EB00B1A3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A516C23DDD2EB00B1A3BA /* ViewController.swift */; };
@@ -21,8 +21,8 @@
 		D24A517223DDD2F100B1A3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24A517123DDD2F100B1A3BA /* Assets.xcassets */; };
 		D24A517523DDD2F100B1A3BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A517323DDD2F100B1A3BA /* LaunchScreen.storyboard */; };
 		D24A518023DDD2F200B1A3BA /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A517F23DDD2F200B1A3BA /* CoordinatorTests.swift */; };
-		D24A518C23DDD35100B1A3BA /* Cena1Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A518B23DDD35100B1A3BA /* Cena1Storyboard.storyboard */; };
-		D24A518F23DDD3A500B1A3BA /* Cena2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A518E23DDD3A500B1A3BA /* Cena2.storyboard */; };
+		D24A518C23DDD35100B1A3BA /* Cena1StoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A518B23DDD35100B1A3BA /* Cena1StoryBoard.storyboard */; };
+		D24A518F23DDD3A500B1A3BA /* View1Cena2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A518E23DDD3A500B1A3BA /* View1Cena2ViewController.storyboard */; };
 		D24A519223DDD3C800B1A3BA /* Cena3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A519123DDD3C800B1A3BA /* Cena3.storyboard */; };
 		D24A519423DDD50100B1A3BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A519323DDD50100B1A3BA /* HomeViewController.swift */; };
 		D24A519623DDD56E00B1A3BA /* View1Cena2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A519523DDD56E00B1A3BA /* View1Cena2ViewController.swift */; };
@@ -41,13 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D2E0F2923E0510B00334B23 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		1D2E0F2C23E0552900334B23 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
-		1D2E0F2F23E057AA00334B23 /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
 		1DB03DF523E8802400DF8E52 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1DB03DF923E8858000DF8E52 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		1DB03E0223EA1DA600DF8E52 /* Cena2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cena2Coordinator.swift; sourceTree = "<group>"; };
 		1DB03E0423EA212E00DF8E52 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		1DB03E0B23EB255C00DF8E52 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1DB03E0C23EB255C00DF8E52 /* MainProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
 		D24A516523DDD2EB00B1A3BA /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24A516823DDD2EB00B1A3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24A516A23DDD2EB00B1A3BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,8 +59,8 @@
 		D24A517B23DDD2F200B1A3BA /* CoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24A517F23DDD2F200B1A3BA /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
 		D24A518123DDD2F200B1A3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D24A518B23DDD35100B1A3BA /* Cena1Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cena1Storyboard.storyboard; sourceTree = "<group>"; };
-		D24A518E23DDD3A500B1A3BA /* Cena2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cena2.storyboard; sourceTree = "<group>"; };
+		D24A518B23DDD35100B1A3BA /* Cena1StoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cena1StoryBoard.storyboard; sourceTree = "<group>"; };
+		D24A518E23DDD3A500B1A3BA /* View1Cena2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = View1Cena2ViewController.storyboard; sourceTree = "<group>"; };
 		D24A519123DDD3C800B1A3BA /* Cena3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cena3.storyboard; sourceTree = "<group>"; };
 		D24A519323DDD50100B1A3BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D24A519523DDD56E00B1A3BA /* View1Cena2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1Cena2ViewController.swift; sourceTree = "<group>"; };
@@ -95,11 +95,11 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		1D2E0F2E23E0578200334B23 /* MainCoordinator */ = {
+		1DB03E0623EB08B200DF8E52 /* MainCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				1D2E0F2923E0510B00334B23 /* MainCoordinator.swift */,
-				1D2E0F2F23E057AA00334B23 /* MainProtocols.swift */,
+				1DB03E0B23EB255C00DF8E52 /* MainCoordinator.swift */,
+				1DB03E0C23EB255C00DF8E52 /* MainProtocols.swift */,
 			);
 			path = MainCoordinator;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 		D24A516723DDD2EB00B1A3BA /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				1DB03E0623EB08B200DF8E52 /* MainCoordinator */,
 				D2E65E9D23DE16F7009D507A /* Commons */,
 				D2E65E9E23DE171E009D507A /* Coordinator.swift */,
-				1D2E0F2E23E0578200334B23 /* MainCoordinator */,
 				D24A518A23DDD31900B1A3BA /* Cena1 */,
 				D24A518D23DDD36000B1A3BA /* Cena2 */,
 				D24A519023DDD3B200B1A3BA /* Cina3 */,
@@ -154,7 +154,7 @@
 		D24A518A23DDD31900B1A3BA /* Cena1 */ = {
 			isa = PBXGroup;
 			children = (
-				D24A518B23DDD35100B1A3BA /* Cena1Storyboard.storyboard */,
+				D24A518B23DDD35100B1A3BA /* Cena1StoryBoard.storyboard */,
 				D24A519323DDD50100B1A3BA /* HomeViewController.swift */,
 				1DB03DF923E8858000DF8E52 /* HomeCoordinator.swift */,
 				1DB03E0423EA212E00DF8E52 /* HomeProtocols.swift */,
@@ -165,7 +165,7 @@
 		D24A518D23DDD36000B1A3BA /* Cena2 */ = {
 			isa = PBXGroup;
 			children = (
-				D24A518E23DDD3A500B1A3BA /* Cena2.storyboard */,
+				D24A518E23DDD3A500B1A3BA /* View1Cena2ViewController.storyboard */,
 				D24A519523DDD56E00B1A3BA /* View1Cena2ViewController.swift */,
 				1DB03E0223EA1DA600DF8E52 /* Cena2Coordinator.swift */,
 			);
@@ -272,10 +272,10 @@
 			files = (
 				D24A517523DDD2F100B1A3BA /* LaunchScreen.storyboard in Resources */,
 				D24A517223DDD2F100B1A3BA /* Assets.xcassets in Resources */,
-				D24A518C23DDD35100B1A3BA /* Cena1Storyboard.storyboard in Resources */,
+				D24A518C23DDD35100B1A3BA /* Cena1StoryBoard.storyboard in Resources */,
 				D24A519223DDD3C800B1A3BA /* Cena3.storyboard in Resources */,
 				D24A517023DDD2EB00B1A3BA /* Main.storyboard in Resources */,
-				D24A518F23DDD3A500B1A3BA /* Cena2.storyboard in Resources */,
+				D24A518F23DDD3A500B1A3BA /* View1Cena2ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,16 +295,16 @@
 			files = (
 				1DB03DF623E8802400DF8E52 /* UIView+Extension.swift in Sources */,
 				D24A519623DDD56E00B1A3BA /* View1Cena2ViewController.swift in Sources */,
+				1DB03E0E23EB255C00DF8E52 /* MainProtocols.swift in Sources */,
 				1DB03DFA23E8858000DF8E52 /* HomeCoordinator.swift in Sources */,
 				1D2E0F2D23E0552900334B23 /* UIViewController + Extension.swift in Sources */,
 				1DB03E0523EA212E00DF8E52 /* HomeProtocols.swift in Sources */,
-				1D2E0F2A23E0510C00334B23 /* MainCoordinator.swift in Sources */,
 				D24A519823DDD65E00B1A3BA /* View1Cena3.swift in Sources */,
 				D24A519423DDD50100B1A3BA /* HomeViewController.swift in Sources */,
 				D24A516D23DDD2EB00B1A3BA /* ViewController.swift in Sources */,
 				D24A516923DDD2EB00B1A3BA /* AppDelegate.swift in Sources */,
 				D24A516B23DDD2EB00B1A3BA /* SceneDelegate.swift in Sources */,
-				1D2E0F3023E057AA00334B23 /* MainProtocols.swift in Sources */,
+				1DB03E0D23EB255C00DF8E52 /* MainCoordinator.swift in Sources */,
 				1DB03E0323EA1DA700DF8E52 /* Cena2Coordinator.swift in Sources */,
 				D2E65E9F23DE171E009D507A /* Coordinator.swift in Sources */,
 			);
@@ -467,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				DEVELOPMENT_TEAM = 6K3965APXT;
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,7 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				DEVELOPMENT_TEAM = 6K3965APXT;
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

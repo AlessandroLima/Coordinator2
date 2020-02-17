@@ -23,8 +23,7 @@ final class MainCoordinator: ParentCoordinator {
 // MARK: Helpers
 extension MainCoordinator {
     private func createMainViewController() -> UIViewController {
-        let mainVc = HomeViewController.instantiate(from: "Cena1Storyboard")
-        mainVc.coordinatorDelegate = self
+        let mainVc = HomeViewController.instantiate(from: "Cena1StoryBoard")
         return mainVc
     }
 }

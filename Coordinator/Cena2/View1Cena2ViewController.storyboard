@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View1 Cena2 View Controller-->
+        <!--CENA 2-->
         <scene sceneID="aQY-wS-y2k">
             <objects>
                 <viewController storyboardIdentifier="View1Cena2ViewController" id="a0p-Rf-g3O" customClass="View1Cena2ViewController" customModule="Coordinator" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +17,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="B0S-WY-Kg4"/>
                     </view>
-                    <navigationItem key="navigationItem" id="iUH-sH-Ug3"/>
+                    <navigationItem key="navigationItem" title="CENA 2" id="iUH-sH-Ug3">
+                        <barButtonItem key="backBarButtonItem" title="Voltar" id="s98-Tc-dPY"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DOC-JX-DkO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
